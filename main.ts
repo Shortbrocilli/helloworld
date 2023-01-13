@@ -21,5 +21,5 @@ basic.showLeds(`
     # # # # #
     `)
 basic.forever(function () {
-    music.playMelody("C5 B C5 G C5 B C5 A ", 120)
+    music.playMelody("C5 B C5 G C5 B C5 A ", 500)
 })
