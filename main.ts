@@ -13,6 +13,7 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Sad)
 })
+music.playMelody("- - - - - - - - ", 120)
 basic.showLeds(`
     # # # # #
     # . . . #
