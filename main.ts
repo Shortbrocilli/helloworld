@@ -13,7 +13,6 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Sad)
 })
-music.playMelody("C5 B C5 G C5 B C5 A ", 120)
 basic.showLeds(`
     # # # # #
     # . . . #
@@ -21,3 +20,6 @@ basic.showLeds(`
     # . . . #
     # # # # #
     `)
+basic.forever(function () {
+    music.playMelody("C5 B C5 G C5 B C5 A ", 120)
+})
